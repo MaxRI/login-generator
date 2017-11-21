@@ -21,6 +21,14 @@ public class LoginGeneratorTest {
                 , "PDUR");
     }
 
+    @Test
+    public void TestGenJohnRalling(){
+        assertEquals(
+                loginGenerator.generateLoginForNomAndPrenom(
+                        "Ralling", "John")
+                , "JRAL2");
+    }
+
     /*@Test
     public void TestGenJeanRolling(){
         assertEquals(
